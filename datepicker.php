@@ -18,7 +18,7 @@ $('.leverdatum').attr('readonly', true); // make input field readonly
 add_action('wp_footer', 'wkbe_hook_javascript');
 
 function wkbe_enqueue_datepicker() {
-  // Load the datepicker script (pre-registered in WordPress).
+  // Load the datepicker script
   wp_enqueue_script( 'jquery-ui-datepicker' );
 
   wp_enqueue_style('jquery-ui', 'https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/start/jquery-ui.css', array() );
