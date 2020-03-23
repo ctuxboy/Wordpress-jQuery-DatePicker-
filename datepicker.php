@@ -6,7 +6,7 @@ function wkbe_hook_javascript() {
 <script>
 (function($){
 jQuery(document).ready(function($) { 
-$(".leverdatum").datepicker(); // link datepicker to input field with 'leverdatum' class
+$(".leverdatum").datepicker(); // link datepicker to input field '.leverdatum'
 $('.leverdatum').attr('readonly', true); // make input field readonly
 });
 
